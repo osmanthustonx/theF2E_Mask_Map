@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/theF2E_Mask_Map/static/css/main.7dfbefbf.chunk.css",
+    "main.js": "/theF2E_Mask_Map/static/js/main.429e3249.chunk.js",
+    "main.js.map": "/theF2E_Mask_Map/static/js/main.429e3249.chunk.js.map",
+    "runtime-main.js": "/theF2E_Mask_Map/static/js/runtime-main.ef07aa23.js",
+    "runtime-main.js.map": "/theF2E_Mask_Map/static/js/runtime-main.ef07aa23.js.map",
+    "static/js/2.4164a134.chunk.js": "/theF2E_Mask_Map/static/js/2.4164a134.chunk.js",
+    "static/js/2.4164a134.chunk.js.map": "/theF2E_Mask_Map/static/js/2.4164a134.chunk.js.map",
+    "index.html": "/theF2E_Mask_Map/index.html",
+    "precache-manifest.6820698d3ceb38d528e5283af45fb22e.js": "/theF2E_Mask_Map/precache-manifest.6820698d3ceb38d528e5283af45fb22e.js",
+    "service-worker.js": "/theF2E_Mask_Map/service-worker.js",
+    "static/css/main.7dfbefbf.chunk.css.map": "/theF2E_Mask_Map/static/css/main.7dfbefbf.chunk.css.map",
+    "static/js/2.4164a134.chunk.js.LICENSE": "/theF2E_Mask_Map/static/js/2.4164a134.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef07aa23.js",
+    "static/js/2.4164a134.chunk.js",
+    "static/css/main.7dfbefbf.chunk.css",
+    "static/js/main.429e3249.chunk.js"
+  ]
+}
