@@ -1,0 +1,63 @@
+header{
+  background-color: #1EB66F;
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  .DateContainer{
+    padding: 20px 0 0 30px;
+    width: 20%;
+    .year{
+      margin: 0 0 10px 0;
+      span{
+        margin-left: 10px;
+      }
+    }
+    h1{
+      font-size: 30px;
+    }
+  }
+  .checkNumContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    .checkHint{
+      background-color: #4A4A4A;
+      width: 45%;
+      text-align: center;
+      padding: 5px 0 5px 0;
+      margin: 5px 0 5px 0;
+    }
+    .settingHint{
+      font-size: 10px;
+      margin: 0 0 0 33%;
+      span{
+        margin-left: 3px;
+      }
+    }
+  }
+  .govInfoContainer{
+    width: 20%;
+    background-color: #1AA765;
+    font-size: 10px;
+    line-height: 1.5;
+    p{
+      padding: 5px;
+    }
+    a{
+      display: block;
+      width: 100%;
+      background-color: #18774E;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      span{
+        margin-left: 3px;
+      }
+    }
+  }
+}
+

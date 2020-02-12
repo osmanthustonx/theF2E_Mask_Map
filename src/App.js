@@ -1,24 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
 
+// 元件
+import MapContainer from './components/MapContainer';
+
 function App() {
+  const [center, setCenter] = useState({ lat: 23.8759391, lng: 120.588669 });
+  const [zoom, setZoom] = useState(8);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MapContainer center={center} zoom={zoom} setCenter={setCenter} setZoom={setZoom} />
     </div>
   );
 }

@@ -3,12 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
+    "@fortawesome/free-regular-svg-icons": "^5.12.1",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@fortawesome/react-fontawesome": "^0.1.8",
+    "@material-ui/core": "^4.9.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "leaflet": "^1.6.0",
+    "leaflet.locatecontrol": "^0.70.0",
+    "leaflet.markercluster": "^1.4.1",
+    "node-sass": "^4.13.1",
+    "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.1"
+    "react-leaflet": "^2.6.1",
+    "react-leaflet-markercluster": "^2.0.0-rc3",
+    "react-scripts": "3.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,7 +29,32 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "airbnb"
+    ],
+    "rules": {
+      "react/jsx-filename-extension": [
+        1,
+        {
+          "extensions": [
+            ".js",
+            ".jsx"
+          ]
+        }
+      ],
+      "camelcase": [
+        "error",
+        {
+          "allow": [
+            "UNSAFE_"
+          ]
+        }
+      ]
+    },
+    "plugins": [
+      "html"
+    ]
   },
   "browserslist": {
     "production": [
@@ -26,9 +63,14 @@
       "not op_mini all"
     ],
     "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+      "last 4 chrome version",
+      "last 4 firefox version",
+      "last 4 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-react": "^7.17.0"
   }
 }
